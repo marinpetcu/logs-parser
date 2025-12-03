@@ -1,0 +1,28 @@
+.project
+.settings
+.classpath
+bin
+target
+.DS_Store
+temp
+
+# intellij
+*.iml
+.idea/
+*.versionsBackup
+
+# Gradle
+.gradle/
+build/
+out/
+tmp/
+datadog/
+
+# Ignore Terraform init output directory
+.terraform*
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
